@@ -1,0 +1,34 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		},
+		{
+			"path": "/Users/pio/Playground/gatsby-test"
+		}
+	],
+	"settings":
+	{
+		"js_prettier":
+		{
+			"additional_cli_args":
+			{
+			},
+			"allow_inline_formatting": false,
+			"auto_format_on_save": true,
+			"auto_format_on_save_excludes":
+			[
+				"*/node_modules/*",
+				"*/.git/*"
+			],
+			"custom_file_extensions":
+			[
+			],
+			"debug": false,
+			"max_file_size_limit": -1,
+			"node_path": "",
+			"prettier_cli_path": ""
+		}
+	}
+}
