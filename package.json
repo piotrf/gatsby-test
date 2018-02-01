@@ -43,7 +43,7 @@
   "main": "n/a",
   "scripts": {
     "patch": "sed -i -e 's/if(c\\.initial) return;/if(!c||c.initial) return;/g' ./node_modules/extract-text-webpack-plugin/index.js",
-    "build": "npm run patch && gatsby build",
+    "build": "./node_modules/gatsby-cli/lib/index.js build",
     "dev": "./node_modules/gatsby-cli/lib/index.js develop",
     "develop": "gatsby develop"
   }
